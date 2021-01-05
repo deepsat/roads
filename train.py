@@ -282,7 +282,7 @@ train_dataset = preprocess_input(train_dataset)
 model = sm.Unet(BACKBONE, classes=2)
 
 model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
-    filepath="epoch.{epoch:02d}.h5"
+    filepath="epoch{epoch:02d}-loss{val_loss:.4f}.h5"
 )
 
 
