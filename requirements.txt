@@ -1,0 +1,5 @@
+tensorflow==2.3
+jupyter
+git+https://github.com/albumentations-team/albumentations#egg=albumentations
+segmentation-models
+pandas
