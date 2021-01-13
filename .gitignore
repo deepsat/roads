@@ -1,3 +1,4 @@
-tiff/
-.vscode/
-env/
+/tiff
+/.vscode
+/env
+/models
