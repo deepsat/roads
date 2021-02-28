@@ -1,3 +1,6 @@
-tiff/
-.vscode/
-env/
+/tiff
+/.vscode
+/env
+/models
+/.ipynb_checkpoints
+*.pyc
